@@ -23,7 +23,7 @@ for page in range(1, NUM_PAGES+1):
             data['id'] = result['id']
             data['text'] = result['text']
             data['from_user'] = result['from_user']
-            data['geo_coordinates'] = result['geo_coordinates']
-            print data['from_user'], data['text'], data['geo_coordinates']
+            #data['geo_coordinates'] = result['geo_coordinates']
+            print data['from_user'], data['text']
     except:
         pass
